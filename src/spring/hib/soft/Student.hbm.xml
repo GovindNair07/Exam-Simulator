@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="spring.hib.soft">
+
+    <class name="Student" table="Student">
+        <id name="id"/>
+        <property name="password"/>
+        <property name="fullName"/>
+        <property name="Course"/>
+        <property name="contact"/>
+        <property name="dob"/>
+        <property name="Country"/>
+        <property name="city"/>
+        <property name="Address"/>
+        <property name="mailid"/>
+        
+    </class>
+
+</hibernate-mapping>

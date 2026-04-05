@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="spring.hib.soft">
+
+    <class name="Question" table="questions">
+
+        <id name="SerialNo">
+            <generator class="native"/>
+        </id>
+        
+        
+         <property name="techId"/>
+        <property name="technology"/>
+        <property name="question"/>
+        <property name="option1"/>
+        <property name="option2"/>
+        <property name="option3"/>
+        <property name="option4"/>
+        <property name="correctOption"/>
+
+    </class>
+
+</hibernate-mapping>
